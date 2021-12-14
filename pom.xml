@@ -15,9 +15,9 @@
 		
 	<properties>
            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-           <sonar.host.url>http://20.119.82.247:9000</sonar.host.url>
+           <sonar.host.url>http://192.168.56.106:9000</sonar.host.url>
            <sonar.login>admin</sonar.login>
-           <sonar.password>Sahi@50025</sonar.password>
+           <sonar.password>sonarqube</sonar.password>
         </properties>
 
 	<dependencies>
@@ -107,11 +107,11 @@
 	<distributionManagement>
 	   <snapshotRepository>
              <id>nexus</id>               
-               <url>http://20.119.82.247:8081/repository/maven-snapshots</url>
+               <url>http://192.168.56.106:8081/repository/maven-snapshots</url>
            </snapshotRepository>
 	   <repository>
              <id>nexus</id>
-             <url>http://20.119.82.247:8081/nexus/content/repositories/releases</url>
+             <url>http://192.168.56.106:8081/nexus/content/repositories/releases</url>
        	    </repository>
 	</distributionManagement>
 	<reporting>
